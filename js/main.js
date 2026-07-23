@@ -208,7 +208,7 @@ async function fetchFeaturedTractors() {
             const imageUrl = tractor.image_url ? tractor.image_url : 'https://via.placeholder.com/400x200?text=No+Image+Available';
 
             card.innerHTML = `
-                <img src="${imageUrl}" alt="${tractor.name} ${tractor.model}" class="tractor-photo">
+                <img src="${imageUrl}" alt="${tractor.model}" class="tractor-photo">
                 <div class="card-content">
                     <h3>${tractor.model}</h3>
                     <p><strong>HP:</strong> ${tractor.hp}</p>
