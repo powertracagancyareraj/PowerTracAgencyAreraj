@@ -2,8 +2,8 @@
 // 1. SUPABASE SETUP (DIRECT CONNECTION)
 // ==========================================
 // Copy these exactly from your Supabase Dashboard -> Settings -> API
-    const supabaseUrl = 'https://ehsxqjyzunbfjklxzpok.supabase.co'; // Replace with your real URL later
-    const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVoc3hxanl6dW5iZmprbHh6cG9rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk5NjI3ODksImV4cCI6MjA5NTUzODc4OX0.sj2xbKTllV5B_qU-ZRhq7A6DrDo2eU84eIJ89HaC9Qs'; // Replace with your real Key later
+    const supabaseUrl = 'https://vqvxsjphpskyvnnpvzpc.supabase.co'; // Replace with your real URL later
+    const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZxdnhzanBocHNreXZubnB2enBjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ4MDEyODUsImV4cCI6MjEwMDM3NzI4NX0.sZ-yzM41omPkb2XKo7oSd7TO7siJIT4LJYxHwCdSCDo'; // Replace with your real Key later
     
     const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
 
