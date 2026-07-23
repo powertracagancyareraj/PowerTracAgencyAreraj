@@ -100,7 +100,7 @@ async function fetchTractors() {
                     <h3>${tractor.model}</h3>
                     <p><strong>HP:</strong> ${tractor.hp}</p>
                     <p><strong>Price:</strong> ₹${tractor.price.toLocaleString('en-IN')}</p>
-                    <button class="btn-primary inquiry-btn" onclick="openInquiry('${tractor.name}', '${tractor.model}')" data-i18n="btnInquiry">
+                    <button class="btn-primary inquiry-btn" onclick="openInquiry('${tractor.model}')" data-i18n="btnInquiry">
                         ${translations[currentLang].btnInquiry}
                     </button>
                 </div>
