@@ -97,7 +97,7 @@ async function fetchTractors() {
             card.innerHTML = `
                 <img src="${imageUrl}" alt="${tractor.name} ${tractor.model}" class="tractor-photo">
                 <div class="card-content">
-                    <h3>${tractor.name} - ${tractor.model}</h3>
+                    <h3>${tractor.model}</h3>
                     <p><strong>HP:</strong> ${tractor.hp}</p>
                     <p><strong>Price:</strong> ₹${tractor.price.toLocaleString('en-IN')}</p>
                     <button class="btn-primary inquiry-btn" onclick="openInquiry('${tractor.name}', '${tractor.model}')" data-i18n="btnInquiry">
