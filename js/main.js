@@ -128,7 +128,7 @@ function openInquiry(tractorName, tractorModel) {
     const hiddenInput = document.getElementById('tractor-interest');
     
     // Set the text so the user knows what they are inquiring about
-    const fullTractorName = `${tractorName} - ${tractorModel}`;
+    const fullTractorName =  '${tractorModel}`;
     detailsText.innerText = fullTractorName;
     hiddenInput.value = fullTractorName; // Save secretly for the database submission
     
