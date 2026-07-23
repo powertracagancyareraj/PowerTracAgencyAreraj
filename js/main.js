@@ -95,7 +95,7 @@ async function fetchTractors() {
 
             // Replaced the placeholder div with an actual img tag
             card.innerHTML = `
-                <img src="${imageUrl}" alt="${tractor.name} ${tractor.model}" class="tractor-photo">
+                <img src="${imageUrl}" ${tractor.model} class="tractor-photo">
                 <div class="card-content">
                     <h3>${tractor.model}</h3>
                     <p><strong>HP:</strong> ${tractor.hp}</p>
