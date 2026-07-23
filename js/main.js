@@ -122,13 +122,13 @@ async function fetchTractors() {
 // ==========================================
 
 // Open the pop-up and fill in the tractor details
-function openInquiry(tractorName, tractorModel) {
+function openInquiry(tractorModel) {
     const modal = document.getElementById('inquiry-modal');
     const detailsText = document.getElementById('modal-tractor-details');
     const hiddenInput = document.getElementById('tractor-interest');
     
     // Set the text so the user knows what they are inquiring about
-    const fullTractorName =  '${tractorModel}`;
+    const fullTractorName = '${tractorModel}`;
     detailsText.innerText = fullTractorName;
     hiddenInput.value = fullTractorName; // Save secretly for the database submission
     
